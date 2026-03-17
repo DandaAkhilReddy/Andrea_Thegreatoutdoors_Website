@@ -2,6 +2,9 @@ services:
   - type: web
     name: the-great-outdoors
     runtime: static
+    envVars:
+      - key: NODE_VERSION
+        value: "20.18.0"
     buildCommand: npm install && npm run build
     staticPublishPath: ./dist
     routes:
