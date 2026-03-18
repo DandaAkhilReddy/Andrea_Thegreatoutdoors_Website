@@ -17,7 +17,7 @@ const projects: Project[] = [
     id: 'p1',
     title: 'Backyard Transformation',
     description: 'Complete patio and pergola installation',
-    before: 'https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=800&q=80',
+    before: 'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&q=80',
     after: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80',
   },
   {
