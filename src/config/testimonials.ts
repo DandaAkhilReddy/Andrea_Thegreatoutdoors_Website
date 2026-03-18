@@ -32,7 +32,7 @@ export const testimonials: Testimonial[] = [
     name: 'Jennifer Williams',
     location: 'Sugar Land, TX',
     rating: 5,
-    text: 'Andrea and the crew built us the most beautiful deck with integrated lighting. They listened to exactly what we wanted and delivered beyond our dreams. Highly recommend to anyone looking for quality outdoor work.',
+    text: 'The team built us the most beautiful deck with integrated lighting. They listened to exactly what we wanted and delivered beyond our dreams. Highly recommend to anyone looking for quality outdoor work.',
     service: 'Decks',
     date: '2025-08',
   },
