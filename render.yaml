@@ -5,7 +5,7 @@ services:
     envVars:
       - key: NODE_VERSION
         value: "20.18.0"
-    buildCommand: npm ci && npm run build
+    buildCommand: npm install && npm run build
     staticPublishPath: ./dist
     routes:
       - type: rewrite
