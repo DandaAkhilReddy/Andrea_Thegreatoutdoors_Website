@@ -41,8 +41,8 @@ export const testimonials: Testimonial[] = [
     name: 'Robert & Lisa Chen',
     location: 'Pearland, TX',
     rating: 5,
-    text: 'The hardscaping work they did on our property is phenomenal. New retaining walls, walkways, and a stunning fire pit area. Our neighbors are jealous! The team was respectful of our property and cleaned up perfectly every day.',
-    service: 'Hardscapes & Fire Pits',
+    text: 'Our automated pergola completely changed how we use our backyard. With one touch we get sun or shade, and the fire pit area they built makes evenings perfect. Our neighbors are jealous! The team was respectful of our property and cleaned up perfectly every day.',
+    service: 'Automated Pergolas & Fire Pits',
     date: '2025-07',
   },
   {

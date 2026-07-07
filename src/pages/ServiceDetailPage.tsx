@@ -9,12 +9,12 @@ import { ServiceIcon } from '@/components/ui/ServiceIcon';
 import { CTABanner } from '@/components/sections/CTABanner';
 
 const heroImages: Record<string, string> = {
+  'automated-pergolas': '/images/services/automated-pergolas.jpg',
   patios: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1920&q=80',
-  pergolas: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1920&q=80',
-  'outdoor-kitchens': 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1920&q=80',
+  pergolas: '/images/services/pergolas.jpg',
+  'outdoor-kitchens': '/images/services/outdoor-kitchens.jpg',
   'fire-pits': 'https://images.unsplash.com/photo-1600573472591-ee6981cf81f6?w=1920&q=80',
   decks: 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1920&q=80',
-  hardscapes: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1920&q=80',
 };
 
 export default function ServiceDetailPage() {

@@ -10,21 +10,21 @@ import { ServiceIcon } from '@/components/ui/ServiceIcon';
 import { Button } from '@/components/ui/Button';
 import { CTABanner } from '@/components/sections/CTABanner';
 
-const serviceImages = [
-  'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80',
-  'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80',
-  'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80',
-  'https://images.unsplash.com/photo-1600573472591-ee6981cf81f6?w=800&q=80',
-  'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80',
-  'https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&q=80',
-];
+const serviceImages: Record<string, string> = {
+  'automated-pergolas': '/images/services/automated-pergolas.jpg',
+  patios: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80',
+  pergolas: '/images/services/pergolas.jpg',
+  'outdoor-kitchens': '/images/services/outdoor-kitchens.jpg',
+  'fire-pits': 'https://images.unsplash.com/photo-1600573472591-ee6981cf81f6?w=800&q=80',
+  decks: 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80',
+};
 
 export default function ServicesPage() {
   const { ref, animate } = useScrollAnimation();
 
   return (
     <>
-      <SEOHead title="Our Services" description="Explore our full range of outdoor living services: patios, pergolas, outdoor kitchens, fire pits, decks, and hardscapes." path="/services" />
+      <SEOHead title="Our Services" description="Explore our full range of outdoor living services: automated pergolas, patios, cedar pergolas, outdoor kitchens, fire pits, and decks." path="/services" />
 
       {/* Hero */}
       <section className="relative h-[50vh] min-h-[400px] flex items-center justify-center">
@@ -45,7 +45,7 @@ export default function ServicesPage() {
               <motion.div key={service.id} variants={staggerItem}>
                 <div className={`flex flex-col ${i % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'} bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow`}>
                   <div className="lg:w-1/2">
-                    <img src={serviceImages[i]} alt={service.title} className="w-full h-72 lg:h-full object-cover" loading="lazy" />
+                    <img src={serviceImages[service.slug] ?? serviceImages.patios} alt={service.title} className="w-full h-72 lg:h-full object-cover" loading="lazy" />
                   </div>
                   <div className="lg:w-1/2 p-8 lg:p-12 flex flex-col justify-center">
                     <div className="flex items-center gap-4 mb-4">
