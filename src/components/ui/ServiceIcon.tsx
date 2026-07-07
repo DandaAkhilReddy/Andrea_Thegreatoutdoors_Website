@@ -119,7 +119,7 @@ function DeckIcon({ className }: { className?: string }) {
   );
 }
 
-function HardscapeIcon({ className }: { className?: string }) {
+function AutomatedPergolaIcon({ className }: { className?: string }) {
   return (
     <svg
       viewBox="0 0 64 64"
@@ -128,29 +128,27 @@ function HardscapeIcon({ className }: { className?: string }) {
       strokeWidth="2"
       className={className}
     >
-      <rect x="8" y="44" width="20" height="8" rx="1" />
-      <rect x="30" y="44" width="14" height="8" rx="1" />
-      <rect x="46" y="44" width="10" height="8" rx="1" />
-      <rect x="8" y="34" width="14" height="8" rx="1" />
-      <rect x="24" y="34" width="18" height="8" rx="1" />
-      <rect x="44" y="34" width="12" height="8" rx="1" />
-      <rect x="12" y="24" width="16" height="8" rx="1" />
-      <rect x="30" y="24" width="12" height="8" rx="1" />
-      <rect x="44" y="24" width="8" height="8" rx="1" />
-      <rect x="16" y="14" width="12" height="8" rx="1" />
-      <rect x="30" y="14" width="14" height="8" rx="1" />
-      <path d="M4 54h56" strokeLinecap="round" />
+      <line x1="12" y1="56" x2="12" y2="16" strokeLinecap="round" />
+      <line x1="52" y1="56" x2="52" y2="16" strokeLinecap="round" />
+      <line x1="8" y1="16" x2="56" y2="16" strokeLinecap="round" strokeWidth="3" />
+      <line x1="16" y1="27" x2="22" y2="21" strokeLinecap="round" />
+      <line x1="26" y1="27" x2="32" y2="21" strokeLinecap="round" />
+      <line x1="36" y1="27" x2="42" y2="21" strokeLinecap="round" />
+      <line x1="46" y1="27" x2="52" y2="21" strokeLinecap="round" />
+      <path d="M24 41c4.5-4.5 11.5-4.5 16 0" strokeLinecap="round" opacity="0.6" />
+      <path d="M28 46c2.5-2.5 5.5-2.5 8 0" strokeLinecap="round" />
+      <circle cx="32" cy="51" r="1.5" fill="currentColor" stroke="none" />
     </svg>
   );
 }
 
 const iconMap: Record<string, React.FC<{ className?: string }>> = {
+  'automated-pergolas': AutomatedPergolaIcon,
   patios: PatioIcon,
   pergolas: PergolaIcon,
   'outdoor-kitchens': KitchenIcon,
   'fire-pits': FirePitIcon,
   decks: DeckIcon,
-  hardscapes: HardscapeIcon,
 };
 
 export function ServiceIcon({ service, className }: ServiceIconProps) {

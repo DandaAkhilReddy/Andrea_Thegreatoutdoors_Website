@@ -12,6 +12,17 @@ export interface Service {
 
 export const services: Service[] = [
   {
+    id: 'automated-pergolas',
+    slug: 'automated-pergolas',
+    title: 'Automated Pergolas',
+    shortTitle: 'Automated Pergolas',
+    description: 'Our automated pergolas combine modern innovation with timeless design to create the ultimate outdoor living experience. Featuring motorized adjustable louvers, each pergola allows you to effortlessly control sunlight, shade, and ventilation with the touch of a button. Built from premium materials and custom designed to complement your space, our automated pergolas provide year-round comfort, weather protection, and lasting beauty.',
+    shortDescription: 'Enhance your outdoor experience with automated pergolas featuring adjustable louvers for the perfect balance of sunlight, shade, and protection in every season.',
+    features: ['Motorized Adjustable Louvers', 'Rain & Wind Sensors', 'Integrated LED Lighting', 'Remote & Smart Home Control', 'Premium Aluminum Construction', 'Year-Round Weather Protection'],
+    icon: 'automated-pergolas',
+    image: '/images/services/automated-pergolas.jpg',
+  },
+  {
     id: 'patios',
     slug: 'patios',
     title: 'Custom Patios',
@@ -65,17 +76,6 @@ export const services: Service[] = [
     features: ['Composite & Hardwood', 'Multi-Level Designs', 'Built-in Benches', 'Railing Systems', 'LED Lighting', 'Code Compliant'],
     icon: 'decks',
     image: '/images/services/decks.jpg',
-  },
-  {
-    id: 'hardscapes',
-    slug: 'hardscapes',
-    title: 'Hardscapes',
-    shortTitle: 'Hardscapes',
-    description: 'Complete your outdoor vision with professional hardscaping. From retaining walls and walkways to driveways and garden borders, we handle every aspect of landscape construction with precision craftsmanship and premium materials.',
-    shortDescription: 'Professional hardscaping including retaining walls, walkways, driveways, and landscape construction.',
-    features: ['Retaining Walls', 'Walkways & Paths', 'Driveway Pavers', 'Garden Borders', 'Drainage Systems', 'Landscape Lighting'],
-    icon: 'hardscapes',
-    image: '/images/services/hardscapes.jpg',
   },
 ];
 

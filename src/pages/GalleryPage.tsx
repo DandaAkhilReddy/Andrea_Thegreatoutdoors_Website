@@ -19,7 +19,7 @@ export default function GalleryPage() {
 
   return (
     <>
-      <SEOHead title="Project Gallery" description="Browse our portfolio of completed outdoor living projects including patios, pergolas, outdoor kitchens, fire pits, decks, and hardscapes." path="/gallery" />
+      <SEOHead title="Project Gallery" description="Browse our portfolio of completed outdoor living projects including automated pergolas, patios, cedar pergolas, outdoor kitchens, fire pits, and decks." path="/gallery" />
 
       {/* Hero */}
       <section className="relative h-[50vh] min-h-[400px] flex items-center justify-center">
