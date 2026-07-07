@@ -2,7 +2,7 @@
 
 > **Building Backyard Destinations**
 
-Premium website for The Great Outdoors, a Houston-based outdoor living specialist building patios, pergolas, outdoor kitchens, fire pits, decks, and hardscapes.
+Premium website for The Great Outdoors, a Houston-based outdoor living specialist building automated pergolas, patios, cedar pergolas, outdoor kitchens, fire pits, and decks.
 
 ## Tech Stack
 
@@ -28,12 +28,12 @@ Premium website for The Great Outdoors, a Houston-based outdoor living specialis
 
 ## Services
 
+- Automated Pergolas
 - Patios
 - Pergolas
 - Outdoor Kitchens
 - Fire Pits
 - Decks
-- Hardscapes
 
 ## Getting Started
 

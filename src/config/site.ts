@@ -2,7 +2,7 @@ export const siteConfig = {
   name: 'The Great Outdoors',
   fullName: 'The Great Outdoors - Patios and More',
   tagline: 'Building Backyard Destinations',
-  description: 'Expert outdoor living specialists for patios, pergolas, outdoor kitchens, fire pits, decks, and hardscapes.',
+  description: 'Expert outdoor living specialists for automated pergolas, patios, cedar pergolas, outdoor kitchens, fire pits, and decks.',
   phone: '+1 (832) 501-0463',
   phoneRaw: '+18325010463',
   email: 'info@greatoutdoorspatios.com',
