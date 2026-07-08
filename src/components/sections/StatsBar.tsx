@@ -21,7 +21,7 @@ export function StatsBar() {
       <div
         className="absolute inset-0 opacity-10 bg-cover bg-center"
         style={{
-          backgroundImage: `url('https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=1920&q=60')`,
+          backgroundImage: `url('https://images.unsplash.com/photo-1558036117-15d82a90b9b1?w=1920&q=60')`,
         }}
       />
 

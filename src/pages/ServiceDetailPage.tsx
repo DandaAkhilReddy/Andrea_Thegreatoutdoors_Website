@@ -13,7 +13,7 @@ const heroImages: Record<string, string> = {
   patios: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1920&q=80',
   pergolas: '/images/services/pergolas.jpg',
   'outdoor-kitchens': '/images/services/outdoor-kitchens.jpg',
-  'fire-pits': 'https://images.unsplash.com/photo-1600573472591-ee6981cf81f6?w=1920&q=80',
+  'fire-pits': 'https://images.unsplash.com/photo-1757851704368-3ae8d337943d?w=1920&q=80',
   decks: 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1920&q=80',
 };
 

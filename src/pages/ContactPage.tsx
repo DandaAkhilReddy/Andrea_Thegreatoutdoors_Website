@@ -15,7 +15,7 @@ export default function ContactPage() {
 
       {/* Hero */}
       <section className="relative h-[40vh] min-h-[350px] flex items-center justify-center">
-        <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url('https://images.unsplash.com/photo-1600573472591-ee6981cf81f6?w=1920&q=80')` }} />
+        <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url('https://images.unsplash.com/photo-1416331108676-a22ccb276e35?w=1920&q=80')` }} />
         <div className="absolute inset-0 bg-darkwood/70" />
         <div className="relative z-10 text-center px-4">
           <h1 className="font-display text-5xl md:text-7xl text-white tracking-wider uppercase">Contact Us</h1>
